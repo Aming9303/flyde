@@ -1,0 +1,49 @@
+{
+  "originalCommit": "913ff75c6781259da35c32fd001a90607756cb24",
+  "prCommit": "d90eeae35d2ba88cee4da828dabe199dd6581942",
+  "environment": "Windows; identical installed dependencies and shared generated core/editor dist inputs; separate original/PR Vite source roots; Chromium 138",
+  "controls": "1200x800 viewport; explicit dummy=true&theme=light/dark; matching colorScheme; document.fonts.ready; disabled screenshot animations; Math.random fixed to 0.5 on both sources to stabilize the random tip",
+  "scope": "Controlled desktop dummy-flow A/B rendering, NOT maintainer-approved golden baselines, NOT native rename execution",
+  "results": [
+    {
+      "theme": "light",
+      "totalPixels": 960000,
+      "differentPixels": 0,
+      "nonUniformPixels": 129069,
+      "pageErrors": [
+        {
+          "source": "original",
+          "errors": [
+            "Cannot read properties of undefined (reading 'postMessage')"
+          ]
+        },
+        {
+          "source": "pr",
+          "errors": [
+            "Cannot read properties of undefined (reading 'postMessage')"
+          ]
+        }
+      ]
+    },
+    {
+      "theme": "dark",
+      "totalPixels": 960000,
+      "differentPixels": 0,
+      "nonUniformPixels": 128819,
+      "pageErrors": [
+        {
+          "source": "original",
+          "errors": [
+            "Cannot read properties of undefined (reading 'postMessage')"
+          ]
+        },
+        {
+          "source": "pr",
+          "errors": [
+            "Cannot read properties of undefined (reading 'postMessage')"
+          ]
+        }
+      ]
+    }
+  ]
+}
